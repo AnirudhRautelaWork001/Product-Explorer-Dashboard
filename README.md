@@ -102,36 +102,6 @@ The app displays products from a public API with filtering, detailed views, and 
 
 ---
 
-## 📁 Folder Structure
-
-src/
-├─ app/
-│ ├─ page.tsx
-│ ├─ layout.tsx
-│ ├─ loading.tsx
-│ └─ products/[id]/page.tsx
-│
-├─ components/
-│ ├─ ProductCard.tsx
-│ ├─ ProductGrid.tsx
-│ ├─ SearchBar.tsx
-│ ├─ CategoryFilter.tsx
-│ ├─ FavoritesToggle.tsx
-│ └─ LoadingSkeleton.tsx
-│
-├─ lib/
-│ ├─ api.ts
-│ └─ favorites.ts
-│
-├─ hooks/
-│ └─ useFavorites.ts
-│
-└─ types/
-└─ product.ts
-
-
----
-
 ## 🧠 Architecture Decisions
 
 - **Server Components** are used for data fetching to improve performance and SEO
